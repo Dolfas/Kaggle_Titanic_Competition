@@ -13,12 +13,12 @@ Random forests consist on an ensemble of multiple decision trees, which are made
 Accordingly, the best hyperparameters of the used Random Forest were found using <i>gridsearch</i>:
 
  <ul>
-  <li><strong>Criterion</strong> = 'gini' </li>
-  <li><strong>max_depth</strong> = 8 </li>
-  <li><strong>max_features</strong> = 'sqrt' </li>
-  <li><strong>max_leaf_nodes</strong> = 6 </li>
-  <li><strong>n_estimators</strong> = 100 </li>
+  <li><strong>Criterion</strong> = 'gini' (The Criterion evaluates each possible feature based split)</li>
+  <li><strong>max_depth</strong> = 8 (The max_depth sets the maximum size of each decision tree)</li>
+  <li><strong>max_features</strong> = 'sqrt' (The max_features conditions what features can be used by each decision tree)</li>
+  <li><strong>max_leaf_nodes</strong> = 6 (The max_leaf_nodes sets the maximum number of leaf nodes each decision tree can have)</li>
+  <li><strong>n_estimators</strong> = 100 (The n_estimators defines the number of decision trees present in our Random Forest)</li>
 </ul> 
 
 ## Results
-
+Finally, we obtained the following results after submiting our csv in kaggle:
