@@ -23,3 +23,10 @@ Accordingly, the best hyperparameters for the Random Forest were found using <i>
 
 ## Results
 Finally, the results for the submitted csv in kaggle were:
+
+<p align = "center">
+  <img src="https://github.com/Dolfas/Kaggle_Titanic_Competition/assets/80644787/7a474fed-a5c2-4cb7-9bf1-73ea1be14c58" width="750" >
+</p>
+
+
+
