@@ -11,7 +11,7 @@ You can obtain the data used <a href="https://www.kaggle.com/competitions/titani
 ## Random Forests
 Random forests consist on an ensemble of multiple decision trees, which are made to be as uncorrelated as posible with each other. In order to obtain such uncorrelation two methods are employed: <strong> Bootstrap Aggregation </strong> and <strong> Feature Bagging</strong>.Bootstrap Aggreagation allows to randomly sample, with replacement, data from the training data set to make each decision tree. Additionally, Feature Bagging conditions the number of features that each decision tree can use for splitting. 
 
-Accordingly, the best hyperparameters of the used Random Forest were found using <i>gridsearch</i>:
+Accordingly, the best hyperparameters for the Random Forest were found using <i>gridsearch</i>:
 
  <ul>
   <li><strong>Criterion</strong> = 'gini' (The Criterion evaluates each possible feature based split)</li>
