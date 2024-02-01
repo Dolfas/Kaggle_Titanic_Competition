@@ -22,4 +22,4 @@ Accordingly, the best hyperparameters for the Random Forest were found using <i>
 </ul> 
 
 ## Results
-Finally, we obtained the following results after submiting our csv in kaggle:
+Finally, the results for the submitted csv in kaggle were:
